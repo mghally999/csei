@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderTwo from "@/components/layout/headers/HeaderTwo";
 import HeroTwo from "@/components/homes/heros/HeroTwo.1";
 
 import CoursesThree from "../../../components/homes/courses/CoursesThree";
@@ -26,7 +25,6 @@ export default function page() {
       <Preloader />
       <Header />
       <div className="main-content overflow-hidden   ">
-        <HeroTwo />
         <CoursesThree />
         <FindLearningPath />
         <LearningSolutions />
